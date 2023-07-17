@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'crispy_bootstrap3',
     'taggit',
+    'django.contrib.humanize',
 
     # Custom Apps Below
     'polls.apps.PollsConfig',
