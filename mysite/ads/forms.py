@@ -37,7 +37,7 @@ class CreateForm(forms.ModelForm):
         if isinstance(f, InMemoryUploadedFile):  # Extract data from the form to the model
             bytearr = f.read()
             instance.content_type = f.content_type
-            instance.picture = bytearr  # Overwrite with the actual image data
+            instance.picture = bytearr  # Overwrite with the actual images data
 
         if commit:
             instance.save()

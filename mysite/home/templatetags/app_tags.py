@@ -5,7 +5,7 @@ from django import template
 
 # A "gravatar" is a globally recognized avatar that is based on email address
 # People must register their email address and then upload a gravatar
-# If an email address has no gravatar, a generic image is put in its place
+# If an email address has no gravatar, a generic images is put in its place
 
 # To use the gravatar filter in a template include
 # {% load app_tags %}

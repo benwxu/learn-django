@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+{% load static %}
 <html>
 <head>
+<link rel="shortcut icon" type="image/png" href="{% static 'images/favicon.ico' %}" >
 <!-- Edit dj4e-samples/settings.py and add APP_NAME = 'DJ4E Samples' or similar -->
 <title>{% block title %}{{ settings.APP_NAME }}{% endblock %}</title>
 
